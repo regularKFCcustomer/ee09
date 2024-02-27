@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styl3.css">
+    <title>Zespoły ratownicze</title>
+</head>
+<body>
+    <header>
+        <div id="banerLewy">
+            <h2>Dodanie zespołu ratowniczego</h2>
+        </div>
+        <div id="banerŚrodkowy">
+            „Kontakt: <br>022 222 11 333
+        </div>
+        <div id="banerPrawy">
+            <img src="obraz.jpg" alt="Ratownicy">
+        </div>
+    </header>
+    <main>
+        <h3>Dodaj nowy zespół</h3>
+        <form action="dodanie.php" method="POST">
+            Numer karetki:<br>
+            <input type="number" name="nr_karetki"><br>
+            Imię i nazwisko pierwszego ratownika: <br>
+            <input type="text" name="ratownik1"><br>
+            Imię i nazwisko drugiego ratownika: <br>
+            <input type="text" name="ratownik2"><br>
+            Imię i nazwisko trzeciego ratownika: <br>
+            <input type="text" name="ratownik3"><br>
+            <input type="button" value="CZYŚĆ">
+            <input type="submit" value="DODAJ">
+        </form>
+    </main>
+    <footer>
+        <div id="stopkaLewa">
+            <a href="kwerendy.txt">Zobacz kwerendy</a>
+        </div>
+        <div id="stopkaŚrodkowa">
+            <h5>Przypominamy numery alarmowe</h5>
+            <ol>
+                <li>112</li>
+                <li>999</li>
+            </ol>
+        </div>
+        <div id="stopkaPrawa">
+            <p>Autor<br>000000000</p>
+        </div>
+    </footer>
+</body>
+</html>

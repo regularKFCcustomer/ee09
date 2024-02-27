@@ -1,0 +1,36 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header,footer{
+    display: flex;
+}
+header>div, footer>div{
+    height: 100px;
+    color: white;
+    background-color: saddlebrown;
+}
+#banerLewy,#stopkaLewa{
+    width: 55%;
+    font-size: 120%;
+}
+#banerŚrodkowy,#stopkaŚrodkowa{
+    width: 25%;
+}
+#banerPrawy, #stopkaPrawa{
+    width: 20%;
+    text-align: right;
+}
+main{
+    background-color: snow;
+    padding: 70px;
+}
+a{
+    border: 2px saddlebrown dotted;
+    background-color: snow;
+    color: saddlebrown;
+    padding: 20px;
+    line-height: 100px;
+}
+ol{
+    list-style-type: lower-alpha;
+}
